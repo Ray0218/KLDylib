@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7246A5C23A0979700E71CD7 /* appSign.sh in Resources */ = {isa = PBXBuildFile; fileRef = F7246A5B23A0979700E71CD7 /* appSign.sh */; };
+		F7E9BB9F239F83E500995791 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E9BB9E239F83E500995791 /* AppDelegate.m */; };
+		F7E9BBA5239F83E500995791 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E9BBA4239F83E500995791 /* ViewController.m */; };
+		F7E9BBAA239F83F000995791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E9BBA9239F83F000995791 /* Assets.xcassets */; };
+		F7E9BBAD239F83F000995791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E9BBAB239F83F000995791 /* LaunchScreen.storyboard */; };
+		F7E9BBB0239F83F000995791 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E9BBAF239F83F000995791 /* main.m */; };
+		F7E9BBBE239F853900995791 /* KLHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E9BBBD239F853900995791 /* KLHook.h */; };
+		F7E9BBC0239F853900995791 /* KLHook.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E9BBBF239F853900995791 /* KLHook.m */; };
+		F7E9BBC8239F87B400995791 /* libKLHook.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7E9BBBB239F853900995791 /* libKLHook.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F7E9BBD2239F8B5A00995791 /* KLFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E9BBD0239F8B5A00995791 /* KLFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E9BBD5239F8B5A00995791 /* KLFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E9BBCE239F8B5A00995791 /* KLFrameWork.framework */; };
+		F7E9BBD6239F8B5A00995791 /* KLFrameWork.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7E9BBCE239F8B5A00995791 /* KLFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7E9BBDC239F8BB000995791 /* KLFrameHook.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E9BBDA239F8BB000995791 /* KLFrameHook.h */; };
+		F7E9BBDD239F8BB000995791 /* KLFrameHook.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E9BBDB239F8BB000995791 /* KLFrameHook.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7E9BBD3239F8B5A00995791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7E9BB92239F83E500995791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7E9BBCD239F8B5A00995791;
+			remoteInfo = KLFrameWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7E9BBC7239F879100995791 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F7E9BBD6239F8B5A00995791 /* KLFrameWork.framework in CopyFiles */,
+				F7E9BBC8239F87B400995791 /* libKLHook.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7246A5B23A0979700E71CD7 /* appSign.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = appSign.sh; sourceTree = SOURCE_ROOT; };
+		F7E9BB9A239F83E500995791 /* KLDylib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLDylib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E9BB9D239F83E500995791 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7E9BB9E239F83E500995791 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7E9BBA3239F83E500995791 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7E9BBA4239F83E500995791 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7E9BBA9239F83F000995791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7E9BBAC239F83F000995791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7E9BBAE239F83F000995791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E9BBAF239F83F000995791 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7E9BBBB239F853900995791 /* libKLHook.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libKLHook.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E9BBBD239F853900995791 /* KLHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLHook.h; sourceTree = "<group>"; };
+		F7E9BBBF239F853900995791 /* KLHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLHook.m; sourceTree = "<group>"; };
+		F7E9BBCE239F8B5A00995791 /* KLFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E9BBD0239F8B5A00995791 /* KLFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLFrameWork.h; sourceTree = "<group>"; };
+		F7E9BBD1239F8B5A00995791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E9BBDA239F8BB000995791 /* KLFrameHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLFrameHook.h; sourceTree = "<group>"; };
+		F7E9BBDB239F8BB000995791 /* KLFrameHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLFrameHook.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7E9BB97239F83E500995791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E9BBD5239F8B5A00995791 /* KLFrameWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E9BBB9239F853900995791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E9BBCB239F8B5A00995791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7E9BB91239F83E400995791 = {
+			isa = PBXGroup;
+			children = (
+				F7E9BB9C239F83E500995791 /* KLDylib */,
+				F7E9BBBC239F853900995791 /* KLHook */,
+				F7E9BBCF239F8B5A00995791 /* KLFrameWork */,
+				F7E9BB9B239F83E500995791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E9BB9B239F83E500995791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7E9BB9A239F83E500995791 /* KLDylib.app */,
+				F7E9BBBB239F853900995791 /* libKLHook.dylib */,
+				F7E9BBCE239F8B5A00995791 /* KLFrameWork.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7E9BB9C239F83E500995791 /* KLDylib */ = {
+			isa = PBXGroup;
+			children = (
+				F7246A5B23A0979700E71CD7 /* appSign.sh */,
+				F7E9BB9D239F83E500995791 /* AppDelegate.h */,
+				F7E9BB9E239F83E500995791 /* AppDelegate.m */,
+				F7E9BBA3239F83E500995791 /* ViewController.h */,
+				F7E9BBA4239F83E500995791 /* ViewController.m */,
+				F7E9BBA9239F83F000995791 /* Assets.xcassets */,
+				F7E9BBAB239F83F000995791 /* LaunchScreen.storyboard */,
+				F7E9BBAE239F83F000995791 /* Info.plist */,
+				F7E9BBAF239F83F000995791 /* main.m */,
+			);
+			path = KLDylib;
+			sourceTree = "<group>";
+		};
+		F7E9BBBC239F853900995791 /* KLHook */ = {
+			isa = PBXGroup;
+			children = (
+				F7E9BBBD239F853900995791 /* KLHook.h */,
+				F7E9BBBF239F853900995791 /* KLHook.m */,
+			);
+			path = KLHook;
+			sourceTree = "<group>";
+		};
+		F7E9BBCF239F8B5A00995791 /* KLFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				F7E9BBD0239F8B5A00995791 /* KLFrameWork.h */,
+				F7E9BBDA239F8BB000995791 /* KLFrameHook.h */,
+				F7E9BBDB239F8BB000995791 /* KLFrameHook.m */,
+				F7E9BBD1239F8B5A00995791 /* Info.plist */,
+			);
+			path = KLFrameWork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F7E9BBB7239F853900995791 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E9BBBE239F853900995791 /* KLHook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E9BBC9239F8B5A00995791 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E9BBDC239F8BB000995791 /* KLFrameHook.h in Headers */,
+				F7E9BBD2239F8B5A00995791 /* KLFrameWork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F7E9BB99239F83E500995791 /* KLDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E9BBB3239F83F000995791 /* Build configuration list for PBXNativeTarget "KLDylib" */;
+			buildPhases = (
+				F7E9BB96239F83E500995791 /* Sources */,
+				F7E9BB97239F83E500995791 /* Frameworks */,
+				F7E9BB98239F83E500995791 /* Resources */,
+				F7E9BBB6239F848E00995791 /* ShellScript */,
+				F7E9BBC7239F879100995791 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7E9BBD4239F8B5A00995791 /* PBXTargetDependency */,
+			);
+			name = KLDylib;
+			productName = KLDylib;
+			productReference = F7E9BB9A239F83E500995791 /* KLDylib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7E9BBBA239F853900995791 /* KLHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E9BBC1239F853900995791 /* Build configuration list for PBXNativeTarget "KLHook" */;
+			buildPhases = (
+				F7E9BBB7239F853900995791 /* Headers */,
+				F7E9BBB8239F853900995791 /* Sources */,
+				F7E9BBB9239F853900995791 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLHook;
+			productName = KLHook;
+			productReference = F7E9BBBB239F853900995791 /* libKLHook.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		F7E9BBCD239F8B5A00995791 /* KLFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E9BBD7239F8B5A00995791 /* Build configuration list for PBXNativeTarget "KLFrameWork" */;
+			buildPhases = (
+				F7E9BBC9239F8B5A00995791 /* Headers */,
+				F7E9BBCA239F8B5A00995791 /* Sources */,
+				F7E9BBCB239F8B5A00995791 /* Frameworks */,
+				F7E9BBCC239F8B5A00995791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLFrameWork;
+			productName = KLFrameWork;
+			productReference = F7E9BBCE239F8B5A00995791 /* KLFrameWork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7E9BB92239F83E500995791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Ray;
+				TargetAttributes = {
+					F7E9BB99239F83E500995791 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					F7E9BBBA239F853900995791 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					F7E9BBCD239F8B5A00995791 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F7E9BB95239F83E500995791 /* Build configuration list for PBXProject "KLDylib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7E9BB91239F83E400995791;
+			productRefGroup = F7E9BB9B239F83E500995791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E9BB99239F83E500995791 /* KLDylib */,
+				F7E9BBBA239F853900995791 /* KLHook */,
+				F7E9BBCD239F8B5A00995791 /* KLFrameWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7E9BB98239F83E500995791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E9BBAD239F83F000995791 /* LaunchScreen.storyboard in Resources */,
+				F7246A5C23A0979700E71CD7 /* appSign.sh in Resources */,
+				F7E9BBAA239F83F000995791 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E9BBCC239F8B5A00995791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F7E9BBB6239F848E00995791 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/appSign.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E9BB96239F83E500995791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E9BBA5239F83E500995791 /* ViewController.m in Sources */,
+				F7E9BB9F239F83E500995791 /* AppDelegate.m in Sources */,
+				F7E9BBB0239F83F000995791 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E9BBB8239F853900995791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E9BBC0239F853900995791 /* KLHook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E9BBCA239F8B5A00995791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E9BBDD239F8BB000995791 /* KLFrameHook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7E9BBD4239F8B5A00995791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7E9BBCD239F8B5A00995791 /* KLFrameWork */;
+			targetProxy = F7E9BBD3239F8B5A00995791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7E9BBAB239F83F000995791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E9BBAC239F83F000995791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7E9BBB1239F83F000995791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7E9BBB2239F83F000995791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E9BBB4239F83F000995791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78AKS5G7F3;
+				INFOPLIST_FILE = KLDylib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray-ios.KLDylib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7E9BBB5239F83F000995791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78AKS5G7F3;
+				INFOPLIST_FILE = KLDylib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray-ios.KLDylib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7E9BBC2239F853900995791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W45W7Y36AR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7E9BBC3239F853900995791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W45W7Y36AR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F7E9BBD8239F8B5A00995791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 78AKS5G7F3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KLFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray-ios.KLFrameWork";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7E9BBD9239F8B5A00995791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 78AKS5G7F3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KLFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray-ios.KLFrameWork";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E9BB95239F83E500995791 /* Build configuration list for PBXProject "KLDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E9BBB1239F83F000995791 /* Debug */,
+				F7E9BBB2239F83F000995791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E9BBB3239F83F000995791 /* Build configuration list for PBXNativeTarget "KLDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E9BBB4239F83F000995791 /* Debug */,
+				F7E9BBB5239F83F000995791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E9BBC1239F853900995791 /* Build configuration list for PBXNativeTarget "KLHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E9BBC2239F853900995791 /* Debug */,
+				F7E9BBC3239F853900995791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E9BBD7239F8B5A00995791 /* Build configuration list for PBXNativeTarget "KLFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E9BBD8239F8B5A00995791 /* Debug */,
+				F7E9BBD9239F8B5A00995791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7E9BB92239F83E500995791 /* Project object */;
+}
